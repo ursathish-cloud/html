@@ -1,72 +1,148 @@
 <!DOCTYPE html>
-<html>
-<title>The Tea and Coffee Co.</title>
+<html lang="en">
+<head>
+  <title>The Tea and Coffee Co.</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background: white;
+      border: 1px solid white;
+      border-radius: 10px;
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 16px;}
+    section {
+      padding: 60px 20px;
+      border-bottom: 1px solid #818181;
+      text-align: center;
+    }
+    #menu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:left;
+}
+    h2 {
+      color: #444;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      font-style: italic;
+      padding: 20px;
+      background: #eee;
+    }
+  </style>
+</head>
 <body>
-    <style>
-    body{
-        background-color:lightgrey;
-    }
-    header{
-        padding-left:500px;
-        padding-right: 500px;
-    
-    }
-    #about{
-        text-align: center;
-    }
-    table th,td{
-        border-style: solid;
-    }
-    </style>
-    <header>
-    <h1>welcome to the little shop</h1>
-    <section id="home">
-    <nav>
-        <li><a href="">About The Tea and Coffee Co(T&C)</a></li>
-        <li><a href="">Our Menu</a></li>
-        <li><a href="">Store Hours</a></li>
-        <li><a href="">Contact Us</a></li>
-    </nav>
-    </section>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglF5D1cezGFqS9CWuJX0vt9sP5upcriAA1w&s" alt="image ">
-    <figcaption>coffee with butter</figcaption>
+  <div class="container">
+    <header id="home">
+      <h1>Welcome to The Tea and Coffee Co.</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Our Menu</a></li>
+          <li><a href="#hours">Store Hours</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglF5D1cezGFqS9CWuJX0vt9sP5upcriAA1w&s" alt="Coffee with butter">
+      <figcaption>Coffee with butter...</figcaption>
     </header>
+
     <section id="about">
-        <h2><b>About The Tea and Coffee Co( T&C )</h2>
-        <table style="width: 100;">
-            <tr>
-                <th>Tea</th>
-                <th>Price</th>
-                <th>Coffee</th>
-                <th>Price</th>
-                <th>puff</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>blacktea</td>
-                <td>40</td>
-                <td>Coldbrew</td>
-                <td>60</td>
-                <td>veg puff</td>
-                <td>30</td>
-            </tr>
-            <tr>
-                <td>Green tea</td>
-                <td>55</td>
-                <td>latte</td>
-                <th>60</td>
-                <td>Chicken puff</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>tea</td>
-                <td>40</td>
-                <td>cappcino</td>
-                <td>50</td>
-                <td>mushroom puff</td>
-                <td>40</td>
-            </tr>
-        </table>
+      <h2>About Us</h2>
+      <p>we are a cozy little coffee and tea shop serving fresh brews and warm pastries in the heart of the city. Come relax with us!</p>
     </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <table style="width: 100;"align:center>
+        <tr>
+            <th>Tea</th>
+            <th>Price</th>
+            <th>Coffee</th>
+            <th>Price</th>
+            <th>puff</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>blacktea</td>
+            <td>40</td>
+            <td>Coldbrew</td>
+            <td>60</td>
+            <td>veg puff</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Green tea</td>
+            <td>55</td>
+            <td>latte</td>
+            <th>60</td>
+            <td>Chicken puff</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>tea</td>
+            <td>40</td>
+            <td>cappcino</td>
+            <td>50</td>
+            <td>mushroom puff</td>
+            <td>40</td>
+        </tr>
+    </table>
+    </section>
+
+    <section id="hours">
+      <h2>Store Hours</h2>
+      <p>Monday - Friday: 8 AM – 8 PM</p>
+      <p>Saturday - Sunday: 9 AM – 6 PM</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: support@teaandcoffee.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+      <p>Location: 123 Brew Street, Bean Town</p>
+    </section>
+
+    <footer>
+      <p>© The Tea and Coffee Co.</p>
+    </footer>
+  </div>
 </body>
 </html>
