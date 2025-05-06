@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>The Tea and Coffee Co.</title>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       background-color: #f0f0f0;
       font-family: Arial;
@@ -22,42 +26,52 @@
       padding: 20px 0;
     }
     nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+      list-style-type: none;
+      padding: 0;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     nav li {
       margin: 0 15px;
     }
     nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 16px;}
-    section {
-    padding: 60px 20px;
-    border-bottom: 1px solid black;
-    text-align: center;}
-    #menu{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+      text-decoration: none;
+      color: blue;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
     }
-    table th,td{
-      border: 1px solid black;
+    section {
+      padding: 60px 10px;
+      border-bottom: 1px solid black;
+      text-align: center;
+    }
+    #about ul{
+      text-align: left;
+    }
+    #menu {
+      display: flex;
+      flex-direction: column;
+    }
+    table {
+      width: 100%;
       border-collapse: collapse;
-      text-align:left;
+      margin: 0 auto;
+    }
+    table th, table td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
     }
     h2 {
       color: #444;
     }
-    img {
+    #imag{
       max-width: 100%;
       height: auto;
-      border-radius: 10px;
+      
     }
     footer {
       text-align: center;
@@ -71,59 +85,71 @@
   <div class="container">
     <section id="home">
       <h1>Welcome to The Tea and Coffee Co.</h1>
-      <nav style="box-shadow:0 0 10px 10px rgba(0,0,0,0.1); padding-top: 10px; padding-bottom: 10px; border-radius: 5px;margin-left: 300px; margin-right: 300px;">
+      <nav style="box-shadow:0 0 10px 10px rgba(0,0,0,0.1); padding: 10px; border-radius: 5px; margin: 0 auto; max-width: 500px;">
         <ul>
-          <li><a href="#about">About </a></li>
-          <li><a href="#menu">Our Menu </a></li>
-          <li><a href="#hours">Store Hours </a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Our Menu</a></li>
+          <li><a href="#hours">Store Hours</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
       <br>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglF5D1cezGFqS9CWuJX0vt9sP5upcriAA1w&s" alt="Coffee with butter">
-      <figcaption>Coffee with butter...</figcaption>
+      <section id=imag>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFt6XwramEIRLFg6dpwlVvGOSV-rMZnmvXw&s">
+        <figcaption>tea with cup</figcaption>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglF5D1cezGFqS9CWuJX0vt9sP5upcriAA1w&s" alt="Coffee with butter">
+        <figcaption>Coffee with butter...</figcaption>
+        <img src="https://fitchai.com/uploads/1617801701_shop-opening.jpg" alt="coffee">
+        <figcaption>steeped in patience</figcaption>
+      </section>
     </section>
-    <section id="about">
+
+    <section id="about" >
       <h2>About Us</h2>
-      <p>we are a cozy little coffee and tea shop serving fresh brews and warm pastries in the heart of the city. Come relax with us!</p>
+      <ul>
+      <li>Welcome to <strong>The Tea and Coffee Co.</strong>, your cozy destination for aromatic brews and warm vibes since <strong>2015</strong>.</li><br>
+      <li>We began as a small neighborhood café and have now grown to serve tea lovers across the country with <strong>branches all over India</strong>.</li><br>
+      <li>Our shop is especially known for our signature <strong>Masala Chai</strong> — a perfect blend of spices, warmth, and tradition keeps On.</li><br>
+      <li>Whether you're here for a quiet cup of tea or a catch-up with friends over coffee, we welcome you to relax and sip in style!</li><br>
+      </ul>
     </section>
 
     <section id="menu">
       <h2>Our Menu</h2>
-      <table style="width: 100;"align:center>
+      <table>
         <tr>
-            <th>Tea</th>
-            <th>Price</th>
-            <th>Coffee</th>
-            <th>Price</th>
-            <th>puff</th>
-            <th>Price</th>
+          <th>Tea</th>
+          <th>Price</th>
+          <th>Coffee</th>
+          <th>Price</th>
+          <th>Puff</th>
+          <th>Price</th>
         </tr>
         <tr>
-            <td>blacktea</td>
-            <td>40</td>
-            <td>Coldbrew</td>
-            <td>60</td>
-            <td>veg puff</td>
-            <td>30</td>
+          <td>Black Tea</td>
+          <td>₹40</td>
+          <td>Cold Brew</td>
+          <td>₹60</td>
+          <td>Veg Puff</td>
+          <td>₹30</td>
         </tr>
         <tr>
-            <td>Green tea</td>
-            <td>55</td>
-            <td>latte</td>
-            <th>60</td>
-            <td>Chicken puff</td>
-            <td>50</td>
+          <td>Green Tea</td>
+          <td>₹55</td>
+          <td>Latte</td>
+          <td>₹60</td>
+          <td>Chicken Puff</td>
+          <td>₹50</td>
         </tr>
         <tr>
-            <td>tea</td>
-            <td>40</td>
-            <td>cappcino</td>
-            <td>50</td>
-            <td>mushroom puff</td>
-            <td>40</td>
+          <td>Masala Chai</td>
+          <td>₹40</td>
+          <td>Cappuccino</td>
+          <td>₹50</td>
+          <td>Mushroom Puff</td>
+          <td>₹40</td>
         </tr>
-    </table>
+      </table>
     </section>
 
     <section id="hours">
@@ -136,11 +162,11 @@
       <h2>Contact Us</h2>
       <p>Email: support@teaandcoffee.com</p>
       <p>Phone: +91 0123456789</p>
-      <p>Location: 123 bengaluru Street, India</p>
+      <p>Location: 123 Bengaluru Street, India</p>
     </section>
 
     <footer>
-      <p>@ The Tea and Coffee Co.</p>
+      <p>© The Tea and Coffee Co.</p>
     </footer>
   </div>
 </body>
