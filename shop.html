@@ -68,10 +68,22 @@
     h2 {
       color: #444;
     }
-    #imag{
-      max-width: 100%;
-      height: auto;
+    .image-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .image-items{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 50px;
+      margin-left:50px ;
+      margin-top: 50px;
       
+    }
+    .image-items p{
+      text-align: center;
     }
     footer {
       text-align: center;
@@ -89,19 +101,25 @@
         <ul>
           <li><a href="#about">About Us</a></li>
           <li><a href="#menu">Our Menu</a></li>
-          <li><a href="#hours">Store Hours</a></li>
+          <li><a href="#hours">Store ours</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
       <br>
-      <section id=imag>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFt6XwramEIRLFg6dpwlVvGOSV-rMZnmvXw&s">
-        <figcaption>tea with cup</figcaption>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglF5D1cezGFqS9CWuJX0vt9sP5upcriAA1w&s" alt="Coffee with butter">
-        <figcaption>Coffee with butter...</figcaption>
-        <img src="https://fitchai.com/uploads/1617801701_shop-opening.jpg" alt="coffee">
-        <figcaption>steeped in patience</figcaption>
-      </section>
+      <div class="image-items">
+        <div class="sample">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFt6XwramEIRLFg6dpwlVvGOSV-rMZnmvXw&s" height="100%"width="100%">
+        <p>tea with cup</p>
+        </div>
+      <div class="sample">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglF5D1cezGFqS9CWuJX0vt9sP5upcriAA1w&s"height="80%"width="80%" alt="Coffee with butter">
+        <p>Coffee with butter...</p>
+      </div>
+      <div>
+        <img src="https://fitchai.com/uploads/1617801701_shop-opening.jpg"height="100%"width="100%" alt="coffee">
+        <p>steeped in patience</p>
+      </div>
+    </div>
     </section>
 
     <section id="about" >
