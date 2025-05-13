@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Travel Agency Page</title>
+    </head>
+    <h1>Chennai - Bengaluru - Mumbai</h1>
+    <p>"At City Explorer Travel Agency, we offer unforgettable journeys to Chennai, Bengaluru, and Mumbai. Whether you're seeking cultural heritage, modern city life, or coastal charm, our well-crafted travel packages ensure comfort, excitement, and lasting memories — all at affordable prices!"</p>
+    <h2>Packages
+    </h2>
+    <ul>
+      <li>Group Travels</li>
+      <li>Private Tours</li>
+    </ul>
+    <h2>Top Itineraries</h2>
+  </html>
