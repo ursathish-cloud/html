@@ -1,16 +1,79 @@
+
 <!DOCTYPE html>
   <html lang="en">
     <head>
-      <meta charset="utf-8">
+      <meta name="description" content="plan trip" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Travel Agency Page</title>
     </head>
+    <body>
     <h1>Chennai - Bengaluru - Mumbai</h1>
-    <p>"At City Explorer Travel Agency, we offer unforgettable journeys to Chennai, Bengaluru, and Mumbai. Whether you're seeking cultural heritage, modern city life, or coastal charm, our well-crafted travel packages ensure comfort, excitement, and lasting memories — all at affordable prices!"</p>
+     <p>"At City Explorer Travel Agency, we offer unforgettable journeys to Chennai, Bengaluru, and Mumbai. Whether you're seeking cultural heritage, modern city life, or coastal charm, our well-crafted travel packages ensure comfort, excitement, and lasting memories — all at affordable prices!"</p>
     <h2>Packages
     </h2>
+    <p>
+      Group Travels:
+      15 members-8000 /-per head
+      <br> 20 members -7200 /-per head
+      <br>
+      Private Tours:
+      6-8 members - 13000 /-per head
+      9-12 members - 12000 /-per haed
+    </p>
     <ul>
-      <li>Group Travels</li>
-      <li>Private Tours</li>
+      <li><a href="https://www.freecodecamp.org/learn" target=_blank >Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target=_blank >Private Tours</a></li>
     </ul>
     <h2>Top Itineraries</h2>
+    <p><strong>Bengaluru City Tour:</strong>
+<b>Notable Landmarks:</b>
+The Bangalore Palace, Tipu Sultan's Summer Palace, and the Bangalore University are all architectural highlights.
+<b>Religious Sites:</b>
+ISKCON Temple, Sri Chokkapalli Temple, and Sri Venkateswara Temple offer spiritual experiences.
+<b>Parks & Gardens:</b>
+Cubbon Park, Bannerghatta Biological Park, and the Lal Bagh Botanical Garden provide green spaces.
+<b>Other Attractions:</b>
+The Vidhana Soudha (legislative assembly), the Indian Institute of Science, and the Museum of Art and Archaeology offer a variety of interests. 
+<br><strong>
+Mumbai City Tour:</strong>
+<b>Gateway of India:</b> A historic monument and a major point of interest.
+<b>Bandra-Worli Sea Link:</b> A stunning bridge offering panoramic views.
+<b>Marine Drive:</b> A promenade along the coastline.
+<b>Sanjay Gandhi National Park:</b> Offers wildlife viewing and trekking.
+Other Attractions: Haji Ali Dargah, Shivaji Park, and Juhu Beach are also popular. <br>
+<strong>Chennai City Tour:</strong>
+</b>Temple Tourism:</b>
+Mahabalipuram, Sri Ranganathaswamy Temple, and the Kapaleeshwarar Temple are significant religious sites.
+</b>Beaches:</b>
+Marina Beach, Besant Nagar Beach, and East Coast Road offer coastal experiences.
+</b>Historical Sites:</b>
+Fort St. George, the Madras Museum, and the Church of Saint Mary are landmarks.
+<b>Other Attractions:</b>
+The Government Museum, the Tamil Nadu Science Centre, and the Adyar Green Trees are also popular. 
+    </p>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn"target=
+    _blank>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBvmBEbjP1L4HRC4D_rP13KBSNMwOTcDtspQ&sg" alt="1">
+    </a>
+     <figcaption>Chennai</figcaption>
+    
+    </figure>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn"target=
+    _blank>
+        <img src="https://assets.architecturaldigest.in/photos/60082549082e4f0ba09487b4/master/pass/Namma-Bengaluru-BEU-logo-1366x768.jpg" width= "330"alt="2">
+    </a>
+    <figcaption>Bengaluru</figcaption>
+     
+    </figure>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn"target=
+    _blank>
+      <img src="https://preview.redd.it/i-have-lived-in-the-indian-cities-of-chennai-bengaluru-and-v0-1ywz7b6sygad1.jpg?width=640&crop=smart&auto=webp&s=4fc2a3b16200c69e3d3f8fb5367ec9112cfa34bc" width="340" alt="3">
+    </a>
+    <figcaption>Mumbai</figcaption>
+     
+    </figure>
+    </body>
   </html>
